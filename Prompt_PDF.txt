@@ -1,0 +1,17 @@
+﻿{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "{{PDF_data}}"
+        },
+        {
+			  "text": "Extract the following invoice details in a JSON format: name, gmail, percentage of JD match, Overall View. Include confidence scores (0-1) for each extracted value. Structure the JSON output as follows:\n\n```json\n{\n  \"invoiceData\": {\n    \"Name\": {\n      \"value\": \"<name>\",\n      \"confidence\": <confidence_score>\n    },\n    \"Gmail\": {\n      \"value\": \"<gmail>\",\n      \"confidence\": <confidence_score>\n    },\n    \"percentageOfJDMatch\": {\n      \"value\": \"<percentage_of_HD_match>\",\n      \"confidence\": <confidence_score>\n  }, \n   {\n    \"OverallView\": {\n      \"value\": \"<overallview>\",\n      \"confidence\": <confidence_score>\n    } \n}\n```\n\nAdhere strictly to the provided JSON structure. Ensure accuracy and completeness of extracted information."
+
+
+
+        }
+      ]
+    }
+  ]
+}
